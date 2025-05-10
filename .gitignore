@@ -1,0 +1,51 @@
+# IDE ve Editör klasörleri
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.vs/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Node.js paketleri
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Derleme çıktıları
+build/
+dist/
+tmp/
+*.zip
+*.crx
+*.pem
+
+# Geçici dosyalar
+*.tmp
+*.bak
+*.swp
+*~
+._*
+
+# Kişisel notlar ve TODO dosyaları 
+TODO.md
+NOTES.md
+personal/
+
+# Test dosyaları
+coverage/
+.nyc_output/
+
+# Yerel ayarlar
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local 
